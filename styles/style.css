@@ -1,0 +1,125 @@
+
+html {
+	/* Set default font size. All other font sizes will be relative to this font size */
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+body {
+	margin:8px;
+	background-image:url(../images/background2.jpg);
+	/* Fill whole background with the image */
+	background-size:100%;
+}
+
+/* Styles for the header */
+div.header h1 {
+	font-size: 3rem;
+  text-align: left;
+	position: relative;
+	float: left;
+}
+
+div.header h2 {
+	font-size: 2rem;
+  text-align: right;
+	color: darkgreen;
+}
+
+/* Styles for the main links on the home page */
+ul.mainlinks {
+	/* No symbol for the list items */
+	list-style: none;
+	/* No indentation for the list items */
+	padding-left: 0px;
+}
+
+ul.mainlinks li {
+  border: outset;
+  text-transform:uppercase;
+  letter-spacing: 0.2rem;
+  background-color: whitesmoke;
+  font-size: 3rem;
+  text-align: center;
+  /* margin-right:50px; */
+  margin-top:8px;
+  margin-bottom: 8px;
+  border-radius:10px;
+	padding: 4px;
+	/* Cannot set width to 100% since the outset will toach the edge */
+	width:97%;
+}
+
+ul.mainlinks a {
+	text-decoration: none;
+	color: black;
+}
+
+ul.mainlinks a:hover {
+	color:darkcyan;
+}
+
+/* Styles for the search */
+div.search input[type='text'] {
+  width:75%;
+  font-size:2rem;
+  margin-top: 15px;
+	height:30px;
+	padding:4px;
+  border:outset;
+  border-radius:10px;
+}
+
+div.search input[type='submit'] {
+	width:20%;
+	height: 100%;
+	margin: 0px;
+	padding: 6px;
+}
+
+/* Style for iframe */
+iframe{
+    border-radius:10px;
+}
+
+/* Styles for articles */
+article {
+	margin-left: 15px;
+}
+
+header h1 {
+	font-size: 2rem;
+}
+
+header h1 + p {
+	font-size: 2rem;
+}
+
+section h2 {
+	font-size: 1.5rem;
+}
+
+section h2 + p {
+	font-size: 1.5rem;
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section h3 + p {
+	font-size: 1.5rem;
+}
+
+/* Style for back button */
+div.back {
+	position: fixed;
+	background-color: transparent;
+	top: 50%;
+	left: -5px;
+	margin: 4px
+}
+
+div.back img {
+	width: 35px;
+}
